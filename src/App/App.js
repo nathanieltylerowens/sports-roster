@@ -5,7 +5,7 @@ import 'firebase/auth';
 import connection from '../helpers/data/connection';
 
 import Navbar from '../components/MyNavBar/Navbar';
-import Team from '../components/Team/Team';
+import TeamContainer from '../components/TeamContainer/TeamContainer';
 
 import './App.scss';
 
@@ -35,7 +35,7 @@ class App extends React.Component {
 
     const loadComponent = () => {
       if (authed) {
-        return <Team />;
+        return <TeamContainer />;
       }
       return '';
     };

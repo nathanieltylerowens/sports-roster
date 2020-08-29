@@ -1,0 +1,207 @@
+{
+  "player01": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/4908f68b13/Aaron-Smith-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "AARON SMITH",
+    "position": "Halfback",
+    "roster": "roster1"
+  },
+  "player02": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Angus-Taavao-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "ANGUS TA'AVAO",
+    "position": "Prop",
+    "roster": "roster1"
+  },
+  "player03": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Anton-Lienert-Brown__FocusFillWzM1MCw0NjAsZmFsc2UsMF0.png",
+    "name": "ANTON LIENERT-BROWN",
+    "position": "Second Five-Eighths",
+    "roster": "roster1"
+  },
+  "player04": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Ardie-Savea__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "ARDIE SAVEA",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player05": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Atu-moli__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "ATUNAISA MOLI",
+    "position": "Prop",
+    "roster": "roster1"
+  },
+  "player06": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Beauden-Barrett-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "BEAUDEN BARRETT",
+    "position": "First Five-Eights",
+    "roster": "roster1"
+  },
+  "player07": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Ben-Smith-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "BEN SMITH",
+    "position": "Fullback",
+    "roster": "roster1"
+  },
+  "player08": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Brad-Weber__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "BRAD WEBER",
+    "position": "Halfback",
+    "roster": "roster1"
+  },
+  "player09": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Brodie-Retallick__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "BRODIE RETALLICK",
+    "position": "Lock",
+    "roster": "roster1"
+  },
+  "player10": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Codie-Taylor__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "CODIE TAYLOR",
+    "position": "Hooker",
+    "roster": "roster1"
+  },
+  "player11": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Dane-Coles__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "DANE COLES",
+    "position": "Hooker",
+    "roster": "roster1"
+  },
+  "player12": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/George-Bridge__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "GEORGE BRIDGE",
+    "position": "Wing",
+    "roster": "roster1"
+  },
+  "player13": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Jack-Goodhue__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "JACK GOODHUE",
+    "position": "Center",
+    "roster": "roster1"
+  },
+  "player14": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Joe-Moody__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "JOE MOODY",
+    "position": "Prop",
+    "roster": "roster1"
+  },
+  "player15": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Jordie-Barrett__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "JORDIE BARRETT",
+    "position": "Fullback",
+    "roster": "roster1"
+  },
+  "player16": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Josh-Ioane-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "JOSH IOANE",
+    "position": "First Five-Eights",
+    "roster": "roster1"
+  },
+  "player17": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Kieran-Read__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "KIERAN READ",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player18": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Liam-Coltman-v2__FocusFillWzI2MCwzMTAsInkiLDQwXQ.JPG",
+    "name": "LIAM COLTMAN",
+    "position": "Hooker",
+    "roster": "roster1"
+  },
+  "player19": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Luke-Jacobson__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "LUKE JACOBSON",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player20": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Matt-Todd__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "MATT TODD",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player21": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Nepo-Laulala-v3__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "NEPO LAULALA",
+    "position": "Prop",
+    "roster": "roster1"
+  },
+  "player22": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Ofa-Tuungafasi__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "OFA TUUNGAFASI",
+    "position": "Prop",
+    "roster": "roster1"
+  },
+  "player23": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Patrick-Tuipilotu__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "PATRICK TUIPULOTU",
+    "position": "Lock",
+    "roster": "roster1"
+  },
+  "player24": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Richie-Mounga__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "RICHIE MO'UNGA",
+    "position": "First Five-Eights",
+    "roster": "roster1"
+  },
+  "player25": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Rieko-Ioane__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "RIEKO IOANE",
+    "position": "Wing",
+    "roster": "roster1"
+  },
+  "player26": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/GettyImages-478221330-removebg-preview__FocusFillWzI2MCwzMTAsInkiLDE0XQ.png",
+    "name": "RYAN CROTTY",
+    "position": "Second Five-Eights",
+    "roster": "roster1"
+  },
+  "player27": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Sam-Cane__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "SAM CANE",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player28": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Sam-Whitelock__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "SAMUEL WHITELOCK",
+    "position": "Lock",
+    "roster": "roster1"
+  },
+  "player29": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/ScottBarrett3-removebg-preview__FocusFillWzI2MCwzMTAsInkiLDFd.png",
+    "name": "SCOTT BARRETT",
+    "position": "Lock",
+    "roster": "roster1"
+  },
+  "player30": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Sevu-Reece-v2__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "SEVU REECE",
+    "position": "Wing",
+    "roster": "roster1"
+  },
+  "player31": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Shannon-Frizel__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "SHANNON FRIZELL",
+    "position": "Loose Forward",
+    "roster": "roster1"
+  },
+  "player32": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/Sonny-Bill-Williams__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "SONNY BILL WILLIAMS",
+    "position": "Second Five-Eighths",
+    "roster": "roster1"
+  },
+  "player33": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/TJ-Perenara__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "TJ PERENARA",
+    "position": "Halfback",
+    "roster": "roster1"
+  },
+  "player34": {
+    "imageUrl": "https://www.allblacks.com/assets/Uploads/TJ-Perenara__FocusFillWzI2MCwzMTAsInkiLDBd.png",
+    "name": "YOUR MOM",
+    "position": "fartsniffer",
+    "roster": "roster2"
+  }
+}
+
