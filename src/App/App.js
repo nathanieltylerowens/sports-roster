@@ -8,12 +8,14 @@ import Navbar from '../components/MyNavBar/Navbar';
 import TeamContainer from '../components/TeamContainer/TeamContainer';
 
 import './App.scss';
+import SingleRoster from '../components/SingleRoster/SingleRoster';
 
 connection();
 
 class App extends React.Component {
   state = {
     authed: false,
+    singleRosterId: '',
   }
 
   componentDidMount() {
@@ -30,18 +32,26 @@ class App extends React.Component {
     this.removeListener();
   }
 
+  setSingleRoster = (singleRosterId) => {
+    this.setState({ singleRosterId });
+  }
+
   render() {
-    const { authed } = this.state;
+    const { authed, singleRosterId } = this.state;
 
     const loadComponent = () => {
-      if (authed) {
-        return <TeamContainer />;
+      if (authed && singleRosterId.length === 0) {
+        return <TeamContainer setSingleRoster={this.setSingleRoster}/>;
       }
+
+      if (authed && singleRosterId.length > 0) {
+        return <SingleRoster rosterId={singleRosterId} setSingleRoster={this.setSingleRoster}/>;
+      }
+
       return '';
     };
     return (
       <div className="App">
-        <h1>INSIDE APP COMPONENT</h1>
         <Navbar authed={authed} />
         {loadComponent()}
       </div>

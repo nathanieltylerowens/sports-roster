@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import Team from '../Team/Team';
 
@@ -6,6 +7,10 @@ import authData from '../../helpers/data/authData';
 import rosterData from '../../helpers/data/rosterData';
 
 class TeamContainer extends React.Component {
+  static propTypes = {
+    setSingleRoster: PropTypes.func.isRequired,
+  }
+
   state = {
     rosters: [],
   }
@@ -18,8 +23,9 @@ class TeamContainer extends React.Component {
 
   render() {
     const { rosters } = this.state;
+    const { setSingleRoster } = this.props;
 
-    const teamCard = rosters.map((roster) => <Team key={roster.id} team={roster}/>);
+    const teamCard = rosters.map((roster) => <Team key={roster.id} team={roster} setSingleRoster={setSingleRoster}/>);
 
     return (
       <div className="card-columns">

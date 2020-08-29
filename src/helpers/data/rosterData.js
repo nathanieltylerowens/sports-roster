@@ -12,4 +12,6 @@ const getRosterByUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
-export default { getRosterByUid };
+const getSingleRoster = (rosterId) => axios.get(`${baseUrl}/rosters/${rosterId}.json`);
+
+export default { getRosterByUid, getSingleRoster };
