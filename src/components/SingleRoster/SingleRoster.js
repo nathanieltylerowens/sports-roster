@@ -17,6 +17,13 @@ class SingleRoster extends React.Component {
     players: [],
   }
 
+  goGetPlayers = () => {
+    const { rosterId } = this.props;
+    playerData.getPlayersByRosterId(rosterId)
+      .then((players) => this.setState({ players }))
+      .catch((err) => console.error('get playas done broke', err));
+  };
+
   componentDidMount() {
     const { rosterId } = this.props;
 
@@ -24,16 +31,22 @@ class SingleRoster extends React.Component {
       .then((response) => this.setState({ roster: response.data }))
       .catch((err) => console.error('get single roster done broke', err));
 
-    playerData.getPlayersByRosterId(rosterId)
-      .then((players) => this.setState({ players }))
-      .catch((err) => console.error('get playas done broke', err));
+    this.goGetPlayers();
+  }
+
+  deletePlayer = (playerId) => {
+    playerData.deletePlayer(playerId)
+      .then(() => {
+        this.goGetPlayers();
+      })
+      .catch((err) => console.error('delete playas done broke', err));
   }
 
   render() {
     const { roster, players } = this.state;
     const { setSingleRoster } = this.props;
 
-    const playerCards = players.map((player) => <Players key={player.id} player={player}/>);
+    const playerCards = players.map((player) => <Players key={player.id} player={player} deletePlayer={this.deletePlayer}/>);
 
     return (
         <div>
