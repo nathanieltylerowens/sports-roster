@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './Team.scss';
+
 import rosterShape from '../../helpers/propz/rosterShape';
 
 class Team extends React.Component {
@@ -26,12 +28,13 @@ class Team extends React.Component {
     const { roster } = this.props;
 
     return (
-      <div className="card">
+      <div className="card bg-dark">
+        <img className="card-img-top" src={roster.imageUrl} alt={roster.name} />
         <div className="card-body">
-          <h5 className="card-title">{roster.name}</h5>
-          <button className="btn btn-dark" onClick={this.singleRosterEvent}>Players  <i className="fas fa-angle-double-right"></i></button>
+          <h5 className="card-title text-white">{roster.name}</h5>
+          <button className="btn btn-outline-primary" onClick={this.singleRosterEvent}>Players  <i className="fas fa-angle-double-right"></i></button>
+          <button className="btn btn-outline-primary" onClick={this.deleteRosterEvent}>delete</button>
         </div>
-        <div className="card-footer text-primary"><button className="btn btn-dark" onClick={this.deleteRosterEvent}>delete</button></div>
       </div>
     );
   }

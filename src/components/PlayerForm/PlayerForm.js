@@ -85,7 +85,7 @@ class playerForm extends React.Component {
     } = this.state;
 
     return (
-      <form className="col-6 offset-3">
+      <form className="col-12">
         <div className="form-group">
           <label htmlFor="playerImageUrl">Players Pic</label>
           <input
@@ -121,9 +121,9 @@ class playerForm extends React.Component {
         </div>
         {
           isEditing
-            ? <button className="btn btn-dark" onClick={this.editPlayerEvent}>Edit Player</button>
+            ? <button className="btn btn-outline-dark text-white" onClick={this.editPlayerEvent}>Edit Player</button>
 
-            : <button className="btn btn-primary" onClick={this.savePlayerEvent}>Save Player</button>
+            : <button className="btn btn-outline-primary" onClick={this.savePlayerEvent}>Save Player</button>
         }
       </form>
     );

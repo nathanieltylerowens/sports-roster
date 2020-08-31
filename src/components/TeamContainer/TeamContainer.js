@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import './TeamContainer.scss';
+
 import Team from '../Team/Team';
 
 import authData from '../../helpers/data/authData';
@@ -39,7 +41,7 @@ class TeamContainer extends React.Component {
     const teamCard = rosters.map((roster) => <Team key={roster.id} roster={roster} setSingleRoster={setSingleRoster} deleteRoster={this.deleteRoster}/>);
 
     return (
-      <div className="card-columns">
+      <div className="card-columns col-4 offset-4 roster-cards">
         { teamCard }
       </div>
     );

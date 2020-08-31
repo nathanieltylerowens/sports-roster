@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import firebase from 'firebase/app';
 import 'firebase/auth';
 
+import './Navbar.scss';
+
 import Auth from '../Auth/Auth';
 
 class Navbar extends React.Component {
@@ -19,7 +21,7 @@ class Navbar extends React.Component {
     const { authed } = this.props;
     return (
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a className="navbar-brand" href="/">Team</a>
+        <a className="navbar-brand" href="/">New Zealand All Blacks</a>
         <ul className="navbar-nav ml-auto">
           <li className="nav-item">
             {
