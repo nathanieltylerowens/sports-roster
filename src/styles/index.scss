@@ -1,8 +1,17 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@400;700&display=swap');
 
-@import 'variables';
+@import '_variables.scss';
 
 body {
   background-color: $favColor;
+  background-image: url("https://png2.cleanpng.com/sh/375d7ceecb0e5c953fe008c9ddbe1cd3/L0KzQYm3WcE0N51vgpH0aYP2gLBuTf5mf15BfdN1YX7nPbBolPlwdpJxReRAZ3L8Pcb1if9vNaVqed82bHBqf368gsliP5M7TKMAN0LkR3A3WMk6OWI2T6MAM0a7RYGAWMgxQGgARuJ3Zx==/kisspng-new-zealand-national-rugby-union-team-logo-5b9a7b641572a7.0899111715368507880879.png");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  height: 800px; /* You must set a specified height */
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
 }

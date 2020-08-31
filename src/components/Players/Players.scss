@@ -1,0 +1,17 @@
+.player-buttons{
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+}
+
+.player-name{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+}
+.player-pos{
+  font-family: 'Quicksand', sans-serif;
+}
+
+.single-player{
+  width: 18rem;
+}

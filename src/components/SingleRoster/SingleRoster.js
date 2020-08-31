@@ -7,6 +7,8 @@ import PlayerForm from '../PlayerForm/PlayerForm';
 import rosterData from '../../helpers/data/rosterData';
 import playerData from '../../helpers/data/playerData';
 
+import './SingleRoster.scss';
+
 class SingleRoster extends React.Component {
   static propTypes = {
     rosterId: PropTypes.string.isRequired,
@@ -77,17 +79,17 @@ class SingleRoster extends React.Component {
 
     return (
         <div>
-          <h5> {roster.name} </h5>
-          <div className="mb-3">
-          <button className="btn btn-primary" onClick={() => { this.setState({ showForm: !showForm }); }}>
-            <i className={showForm ? 'far fa-times-circle' : 'far fa-plus-square'}></i>
-          </button>
-          {showForm ? <PlayerForm rosterId={rosterId} createPlayer={this.createPlayer} playerThatIAmEditing={editPlayer} updatePlayer={this.updatePlayer}/> : ''}
+          <h3 className="team-title"> {roster.name} </h3>
+          <div className="mb-3 control-top col-6 offset-3">
+            <button className="btn btn-outline-primary col-4 offset-4" onClick={() => { this.setState({ showForm: !showForm }); }}>
+              <i className={showForm ? 'far fa-times-circle' : 'far fa-plus-square'}></i>
+            </button>
+              {showForm ? <PlayerForm rosterId={rosterId} createPlayer={this.createPlayer} playerThatIAmEditing={editPlayer} updatePlayer={this.updatePlayer}/> : ''}
+            <button
+              className="btn btn-outline-dark text-white col-4 offset-4"
+              onClick={() => { setSingleRoster(''); }}><i className="fas fa-angle-double-left"></i>  Go Back</button>
           </div>
-          <button
-            className="btn btn-dark"
-            onClick={() => { setSingleRoster(''); }}>Go Back</button>
-          <div className="card-columns">
+          <div className="card-row player-container">
             {playerCards}
           </div>
         </div>
