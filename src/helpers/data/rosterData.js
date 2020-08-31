@@ -12,6 +12,12 @@ const getRosterByUid = (uid) => new Promise((resolve, reject) => {
     .catch((err) => reject(err));
 });
 
+const deleteRoster = (rosterId) => axios.delete(`${baseUrl}/rosters/${rosterId}.json`);
+
 const getSingleRoster = (rosterId) => axios.get(`${baseUrl}/rosters/${rosterId}.json`);
 
-export default { getRosterByUid, getSingleRoster };
+export default {
+  getRosterByUid,
+  getSingleRoster,
+  deleteRoster,
+};
